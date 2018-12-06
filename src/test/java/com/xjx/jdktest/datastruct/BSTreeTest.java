@@ -11,18 +11,8 @@ public class BSTreeTest {
         theTree.insert(37, new Float(1.9f));
         theTree.insert(43, new Float(1.3f));
 
-        theTree.insert(87, new Float(1.6f));
-        theTree.insert(93, new Float(1.2f));
-        theTree.insert(97, new Float(1.5f));
+        System.out.println(theTree.find(12).index);
 
-        theTree.insert(19, new Float(1.5f));
-        theTree.insert(30, new Float(1.4f));
-        theTree.insert(11, new Float(1.3f));
-        theTree.insert(13, new Float(1.3f));
-
-        theTree.insert(20, new Float(1.3f));
-        theTree.insert(98, new Float(1.5f));
-        theTree.insert(99, new Float(1.5f));
        // theTree.displayTree();
 //		theTree.traverse(1);
 //		theTree.traverse(2);

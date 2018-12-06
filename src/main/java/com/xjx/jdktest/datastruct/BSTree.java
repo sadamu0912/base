@@ -27,6 +27,8 @@ public class BSTree {
 	 */
 	public Node find(int inputIndex){
 		if(root ==null) return null;
+		 return  getRecursive(root,inputIndex);
+		/*if(root ==null) return null;
 		Node toBeCompared = root;
 		while(!(toBeCompared.index == inputIndex ||isLeafNode(toBeCompared))){
 			if (inputIndex < toBeCompared.index) {
@@ -39,6 +41,18 @@ public class BSTree {
 			return toBeCompared;
 		}else{
 			return null;
+		}*/
+	}
+
+
+
+	private  Node getRecursive(Node tree,int inputIndex){
+		if(inputIndex<tree.index){
+			return getRecursive(tree.leftNode,inputIndex);
+		}else if(inputIndex>tree.index){
+			return  getRecursive(tree.rightNode,inputIndex);
+		}else{
+			return  tree;
 		}
 	}
  public Node getRoot(){
