@@ -1,4 +1,4 @@
-package com.xjx.jdktest.concurrent;
+package com.xjx.jdktest.concurrent.sematic;
 
 import java.util.concurrent.CountDownLatch;
 

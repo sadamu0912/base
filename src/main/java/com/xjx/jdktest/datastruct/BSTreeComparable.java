@@ -18,7 +18,7 @@ public class BSTreeComparable<T extends Comparable> {
         root = null;
     }
 
-    /**
+    /**ConcurrentHashMap
      * 查询数据方法
      * @param key
      * @return
@@ -28,6 +28,24 @@ public class BSTreeComparable<T extends Comparable> {
         Node node =  getRecursive(root,key);
         if(node ==null) return  EMPTY_NODE;
         return node;
+    }
+
+    /**
+     * 递归比较大小，如果小于该节点，则拿左节点继续比较
+     * 如果大于该节点，就拿右节点继续比较
+     * @param tree
+     * @param key
+     * @return
+     */
+    private Node getRecursive(Node tree,T key){
+        if(tree==null) return null;
+        if(key.compareTo(tree.key)<0){
+            return getRecursive(tree.leftNode,key);
+        }else if(key.compareTo(tree.key)>0){
+            return getRecursive(tree.rightNode,key);
+        }else{
+            return tree;
+        }
     }
 
     /**
@@ -41,9 +59,17 @@ public class BSTreeComparable<T extends Comparable> {
         }else{
             putRecursive(root,key,value);
         }
-
-
-
+    }
+    private Node  putRecursive(Node tree,T key,Object value){
+        if(tree==null) return new Node(null,null,key,value);
+        if(key.compareTo(tree.key)<0){
+            tree.leftNode = putRecursive(tree.leftNode,key,value);
+        }else if(key.compareTo(tree.key)>0){
+            tree.rightNode = putRecursive(tree.rightNode,key,value);
+        }else{
+            tree.content = value;
+        }
+        return tree;
     }
 
     public void remove(T key){
@@ -51,6 +77,12 @@ public class BSTreeComparable<T extends Comparable> {
        root = newTree;
     }
 
+    /**
+     * 从tree中找到这个节点，然后干掉，然后返回一颗新的树
+     * @param tree
+     * @param key
+     * @return
+     */
     private Node remove(Node tree ,T key){
         if(tree==null) return null;
 
@@ -104,9 +136,12 @@ public class BSTreeComparable<T extends Comparable> {
         }
     }
 
-
-
-
+    /**
+     * 返回顶包的节点，右子树的最小值就是继承者
+     * @param tree
+     * @param map
+     * @return
+     */
     private Map<String,Node> getSuccessor(Node tree,Map<String,Node> map) {
         if (map == null) {
             map =  new HashMap<>();
@@ -120,44 +155,8 @@ public class BSTreeComparable<T extends Comparable> {
         return map2;
     }
 
-    private Node  putRecursive(Node tree,T key,Object value){
-        if(tree==null) return new Node(null,null,key,value);
-        if(key.compareTo(tree.key)<0){
-            tree.leftNode = putRecursive(tree.leftNode,key,value);
-        }else if(key.compareTo(tree.key)>0){
-            tree.rightNode = putRecursive(tree.rightNode,key,value);
-        }else{
-            tree.content = value;
-        }
-        return tree;
-    }
-
-
-    /**
-     * 递归比较大小，如果小于该节点，则拿左节点继续比较
-     * 如果大于该节点，就拿右节点继续比较
-     * @param tree
-     * @param key
-     * @return
-     */
-    private Node getRecursive(Node tree,T key){
-        if(tree==null) return null;
-        if(key.compareTo(tree.key)<0){
-            return getRecursive(tree.leftNode,key);
-        }else if(key.compareTo(tree.key)>0){
-            return getRecursive(tree.rightNode,key);
-        }else{
-            return tree;
-        }
-    }
-
-
-
-
-
 
     public static int getHeight(Node root) {
-
         if (root == null) {
             return 0;
         }

@@ -3,12 +3,56 @@ package com.xjx.jdktest.datastruct;
 
 import java.util.Stack;
 
+/**
+ * AVL树实现的map结构
+ * @param <Key>
+ * @param <Value>
+ */
 public class AVLTreeMap <Key extends Comparable,Value>{
+
+    public void put(Key key, Value value) {
+        root = put(root, key, value);
+    }
+
+    /**
+     * 递归调用，先递归put方法，找到插入位置  返回一个节点return new TreeNode(key, value);
+     * 假设前一步走得是【root.left = put(root.left, key, value);】这一句代码
+     * 那【新节点D】 插入的是root的左节点【注意这个不是类所在的root，而是代码中的root】
+     *  ******【后面就是不断update和balance .】***********************************
+     * 1  【第一次递归========================】
+     * update 方法  ，size左右子树的size+1 ,height 是左子树和右子树的高度最大值+1 。假设没有右子树，height =2
+     * balance方法   直接return.
+     *       root1
+     *      /
+     *    D
+     * 2 【第二 次递归========================】
+     *  假设原来第二次还是走得左侧。
+     *  update之后是 root2的height=3
+     *               root2
+     *             /
+     *        root1
+     *      /
+     *    D
+     *    balance方法  调用rightRotate方法，改变高度和size
+     * @param root
+     * @param key
+     * @param value
+     * @return
+     */
+    private TreeNode put(TreeNode root, Key key, Value value) {
+        if (root == null)  return new TreeNode(key, value);
+        if (key.compareTo(root.key) < 0) root.left = put(root.left, key, value);
+        else if (key.compareTo(root.key) > 0) root.right = put(root.right, key, value);
+        else root.value = value;
+        update(root);
+        return balance(root);
+    }
 
     private void update(TreeNode tree) {
         tree.size = size(tree.left) + size(tree.right) + 1;
         tree.height = Math.max(height(tree.left), height(tree.right)) + 1;
     }
+
 
     private TreeNode rightRotate(TreeNode oldRoot){
         TreeNode newRoot = oldRoot.left;
@@ -49,24 +93,21 @@ public class AVLTreeMap <Key extends Comparable,Value>{
         }
         return root;
     }
-
-    private TreeNode put(TreeNode root, Key key, Value value) {
-        if (root == null)  return new TreeNode(key, value);
-        if (key.compareTo(root.key) < 0) root.left = put(root.left, key, value);
-        else if (key.compareTo(root.key) > 0) root.right = put(root.right, key, value);
-        else root.value = value;
-        update(root);
-        return balance(root);
-    }
-
-    public void put(Key key, Value value) {
-        root = put(root, key, value);
-    }
     private TreeNode min(TreeNode root) {
         if (root.left == null) return root;
         return min(root.left);
     }
 
+    public void remove(Key key) {
+        remove(root, key);
+    }
+
+    /**
+     * 删除方法和BST差不多，分四种情况讨论，左右子树都有的时候，要寻找继承者
+     * @param root
+     * @param key
+     * @return
+     */
     private TreeNode remove(TreeNode root, Key key) {
         if (root == null) return null;
         if (key.compareTo(root.key) < 0) {
@@ -90,14 +131,6 @@ public class AVLTreeMap <Key extends Comparable,Value>{
         update(root);
         return balance(root);
     }
-
-    public void remove(Key key) {
-        remove(root, key);
-    }
-
-
-
-
 
     private  class TreeNode {
         Key key;
@@ -164,7 +197,6 @@ public class AVLTreeMap <Key extends Comparable,Value>{
         }
         System.out.println("=========================================================================");
     }
-
 
 }
 

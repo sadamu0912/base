@@ -1,4 +1,4 @@
-package com.xjx.jdktest.concurrent;
+package com.xjx.jdktest.concurrent.component;
 
 import java.util.HashMap;
 import java.util.Map;

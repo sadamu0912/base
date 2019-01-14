@@ -12,10 +12,11 @@ public class BSTreeComparableTest {
         tree.put(14,"14");
         tree.put(12,"12");
         tree.put(15,"15");
-        //tree.remove(12);
-        //tree.remove(30);
-        //tree.remove(7);
-        tree.remove(10);
+        //tree.remove(12);  //删除叶子节点
+        //tree.remove(30);  //删除有右子树的节点
+        //tree.remove(7);  //删除有左子树的节点
+        //tree.remove(1);  //删除不存在的节点
+        //tree.remove(10); //删除有左子树和右子树的节点
        tree.displayTree();
     }
 }

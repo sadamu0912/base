@@ -1,10 +1,10 @@
-package com.xjx.jdktest.concurrent;
+package com.xjx.jdktest.concurrent.sematic;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 
 /**
- * 自定义同步器
+ *  独占锁语义
  */
 public class MutexLock {
     /**

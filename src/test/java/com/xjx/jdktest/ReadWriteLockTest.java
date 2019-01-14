@@ -1,3 +1,4 @@
+/*
 package com.xjx.jdktest;
 
 import org.junit.Test;
@@ -21,10 +22,12 @@ public class ReadWriteLockTest {
 
     private Lock writeLock = lock.writeLock();
 
-    /**
+    */
+/**
      * 测试用例
      * @throws InterruptedException
-     */
+     *//*
+
     @Test
     public void testLockDowngrading() throws InterruptedException {
         CountDownLatch start = new CountDownLatch(1);
@@ -56,10 +59,12 @@ public class ReadWriteLockTest {
 
     }
 
-    /**
+    */
+/**
      * 锁降级过程
      * @param num
-     */
+     *//*
+
     private void processCachedDataDownGrading(int num){
         readLock.lock();
         if(!cacheValid){
@@ -94,10 +99,12 @@ public class ReadWriteLockTest {
         }
     }
 
-    /**
+    */
+/**
      * 无锁降级的过程
      * @param num
-     */
+     *//*
+
     private void processCachedData(int num){
         readLock.lock();
         if(!cacheValid){
@@ -129,3 +136,4 @@ public class ReadWriteLockTest {
 }
 
 
+*/

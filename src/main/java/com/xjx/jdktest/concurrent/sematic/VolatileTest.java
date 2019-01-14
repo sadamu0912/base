@@ -1,4 +1,4 @@
-package com.xjx.jdktest.concurrent;
+package com.xjx.jdktest.concurrent.sematic;
 
 import java.util.concurrent.CountDownLatch;
 
@@ -11,7 +11,10 @@ public class VolatileTest {
 
     private static CountDownLatch start  = new CountDownLatch(10);
 
-    public void increase(){
+    /**
+     * 这里是个复合操作，读取count变量，计算，然后写回去
+     * */
+    public  synchronized void increase(){
         count ++;
     }
     public void  getCount(){

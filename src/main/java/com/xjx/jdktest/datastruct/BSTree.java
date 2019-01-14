@@ -20,28 +20,13 @@ public class BSTree {
 	}
 
 	/**
-	 *   遍历BSTree ，循环终止条件是： 被比较的元素的index和index相等
-	 *   或者被比较的元素已经是叶子节点
+	 *
 	 * @param inputIndex
 	 * @return
 	 */
 	public Node find(int inputIndex){
 		if(root ==null) return null;
 		 return  getRecursive(root,inputIndex);
-		/*if(root ==null) return null;
-		Node toBeCompared = root;
-		while(!(toBeCompared.index == inputIndex ||isLeafNode(toBeCompared))){
-			if (inputIndex < toBeCompared.index) {
-				toBeCompared = toBeCompared.leftNode;
-			} else {   //向右子树查询
-				toBeCompared = toBeCompared.rightNode;
-			}
-		}
-		if(toBeCompared.index == inputIndex){
-			return toBeCompared;
-		}else{
-			return null;
-		}*/
 	}
 
 
