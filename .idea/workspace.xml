@@ -2,83 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04f85ba4-182b-4490-b0c4-fac6d011a559" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_39.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/base/FakeHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/base/FakeHashMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/base/FinalizeEscapeGC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/base/WriteCombining.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/InheritableThreadLocalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/MultiThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/MultiThreadPipedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/PipedStreamConnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/PipedStreamLeakTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/PipedStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/ThreadLocalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/ThreadState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/component/CountDownLatchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/component/ExchangerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/component/ReentrantLockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/component/cyclicbarrier/CyclicBarrierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/component/cyclicbarrier/CyclicBarrierTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/component/cyclicbarrier/CyclicBarrierTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/component/cyclicbarrier/Temp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/component/semaphore/DCResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/component/semaphore/ReSourceManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/component/semaphore/ResourceUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/component/semaphore/SemaphoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/container/CLHLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/pool/ConnectionInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/pool/ConnectionPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/pool/ConnectionPoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/pool/ConnectionProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/pool/DBUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/pool/PooledDataSourceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/sematic/ConditionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/sematic/CyclicBarrierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/sematic/FairAndUnfairTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/sematic/LockSupportTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/sematic/LockSupportTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/sematic/LockSupportTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/sematic/TestLock2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/sematic/TestLockInterruptibly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/sematic/VolatileTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/synchronizedtest/Demo003.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/synchronizedtest/Demo004.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/synchronizedtest/Demo005.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/synchronizedtest/Demo006.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/synchronizedtest/Demo007.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/synchronizedtest/Demo008.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/synchronizedtest/Demo009.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/synchronizedtest/Demo010.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/synchronizedtest/Demo011.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/synchronizedtest/DemoThread00.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/synchronizedtest/DemoThread02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/synchronizedtest/RunnableTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/MaxHeapComparable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/RBTreeComparable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/RingBufferFillCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/RingBufferFlipMarker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xjx/jdktest/datastruct/HashMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xjx/jdktest/datastruct/Key.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xjx/jdktest/datastruct/Key2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xjx/jdktest/datastruct/Keys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xjx/jdktest/datastruct/Keys2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xjx/jdktest/datastruct/RBTreeComparableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdktest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jdktest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/Cache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/component/Cache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/MutexLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/sematic/MutexLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/VolatileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/sematic/VolatileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/VolatileTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/sematic/VolatileTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/AVLTreeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/AVLTreeMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/BSTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/BSTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/BSTreeComparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/BSTreeComparable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/HashMapTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xjx/jdktest/ReadWriteLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xjx/jdktest/ReadWriteLockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xjx/jdktest/datastruct/BSTreeComparableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xjx/jdktest/datastruct/BSTreeComparableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/MaxHeapComparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/MaxHeapComparable.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,7 +16,7 @@
     <session id="-73969309">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="48" />
+          <entry key="project.closed" value="51" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.103" value="1" />
           <entry key="project.open.time.16" value="2" />
@@ -99,46 +24,47 @@
           <entry key="project.open.time.27" value="3" />
           <entry key="project.open.time.28" value="4" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.30" value="5" />
+          <entry key="project.open.time.30" value="6" />
           <entry key="project.open.time.31" value="5" />
           <entry key="project.open.time.32" value="6" />
           <entry key="project.open.time.33" value="2" />
-          <entry key="project.open.time.34" value="4" />
+          <entry key="project.open.time.34" value="5" />
           <entry key="project.open.time.35" value="2" />
           <entry key="project.open.time.36" value="3" />
           <entry key="project.open.time.37" value="2" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.43" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="49" />
+          <entry key="project.opened" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="317" />
+          <entry key="java" value="326" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="317" />
+          <entry key="JAVA" value="326" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="18061" />
+          <entry key="java" value="20769" />
           <entry key="txt" value="9" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="18061" />
+          <entry key="JAVA" value="20769" />
           <entry key="PLAIN_TEXT" value="9" />
           <entry key="XML" value="7" />
         </counts>
@@ -147,126 +73,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/java/jdk1.8/src.zip!/java/util/TreeMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-121">
-              <caret line="311" column="22" selection-start-line="311" selection-start-column="16" selection-end-line="311" selection-end-column="22" />
-              <folding>
-                <element signature="e#76802#76803#0" expanded="true" />
-                <element signature="e#76854#76855#0" expanded="true" />
-                <element signature="e#76916#76917#0" expanded="true" />
-                <element signature="e#76967#76968#0" expanded="true" />
-                <element signature="e#77148#77149#0" expanded="true" />
-                <element signature="e#77197#77198#0" expanded="true" />
-                <element signature="e#77258#77259#0" expanded="true" />
-                <element signature="e#77308#77309#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/MaxHeapComparable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="109" selection-start-line="109" selection-end-line="109" />
-              <folding>
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#461#462#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/AVLTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="213" column="29" selection-start-line="213" selection-start-column="25" selection-end-line="213" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/BSTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1107">
-              <caret line="62" column="29" lean-forward="true" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/RBTreeComparable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-              <folding>
-                <element signature="method#putRecursive#0;class#RBTreeComparable#0" />
-                <element signature="method#rotateRight#0;class#RBTreeComparable#0" />
-                <element signature="class#Node#0;class#RBTreeComparable#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/xjx/jdktest/datastruct/RBTreeComparableTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/AVLTreeMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1485">
-              <caret line="65" column="31" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="31" />
-              <folding>
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="method#update#0;class#AVLTreeMap#0" />
-                <element signature="method#rightRotate#0;class#AVLTreeMap#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/BSTreeComparable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="220" column="14" selection-start-line="220" selection-start-column="8" selection-end-line="220" selection-end-column="14" />
+            <state relative-caret-position="141">
+              <caret line="93" column="46" selection-start-line="93" selection-start-column="46" selection-end-line="93" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="docComment;method#get#0;class#BSTreeComparable#0" />
-                <element signature="method#get#0;class#BSTreeComparable#0" />
-                <element signature="docComment;method#getRecursive#0;class#BSTreeComparable#0" />
-                <element signature="method#getRecursive#0;class#BSTreeComparable#0" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+                <element signature="e#1043#1044#0" expanded="true" />
+                <element signature="e#1085#1086#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/java/jdk1.8/src.zip!/java/util/NavigableMap.java">
+        <entry file="jar://D:/java/jdk1.8/src.zip!/java/util/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1647">
-              <caret line="94" column="29" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="29" />
+            <state relative-caret-position="161">
+              <caret line="3179" column="60" selection-start-line="3179" selection-start-column="51" selection-end-line="3179" selection-end-column="60" />
+              <folding>
+                <element signature="e#177013#177014#0" expanded="true" />
+                <element signature="e#177054#177055#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/java/jdk1.8/src.zip!/java/util/SortedMap.java">
+        <entry file="jar://D:/java/jdk1.8/src.zip!/java/util/List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2241">
-              <caret line="106" column="18" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
+            <state relative-caret-position="5049">
+              <caret line="210" column="12" selection-start-line="210" selection-start-column="12" selection-end-line="210" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/java/jdk1.8/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-418">
+              <caret line="716" column="24" selection-start-line="716" selection-start-column="16" selection-end-line="716" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#54151#0" expanded="true" />
+                <element signature="e#7128#7574#0" />
+                <element signature="e#7580#8306#0" />
+                <element signature="e#13541#13542#0" expanded="true" />
+                <element signature="e#13596#13597#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/java/jdk1.8/src.zip!/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50490">
+              <caret line="1951" selection-start-line="1951" selection-end-line="1951" />
+              <folding>
+                <element signature="e#75785#75786#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -312,7 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/pool/ConnectionPool.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/pool/ConnectionPoolTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/pool/PooledDataSourceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/synchronizedtest/Demo004.java" />
@@ -362,6 +231,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/AVLTreeMap.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xjx/jdktest/datastruct/RBTreeComparableTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/RBTreeComparable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/MaxHeapComparable2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/MaxHeapComparable.java" />
       </list>
     </option>
@@ -505,7 +375,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -600,7 +470,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -772,7 +642,10 @@
       <workItem from="1547127286220" duration="4316000" />
       <workItem from="1547216264565" duration="5753000" />
       <workItem from="1547261865144" duration="23566000" />
-      <workItem from="1547469506189" duration="14335000" />
+      <workItem from="1547469506189" duration="14466000" />
+      <workItem from="1547558889697" duration="4287000" />
+      <workItem from="1547640842990" duration="4540000" />
+      <workItem from="1547728236972" duration="7572000" />
     </task>
     <servers />
   </component>
@@ -788,20 +661,20 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="313518000" />
+    <option name="totallyTimeSpent" value="330048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24228792" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24550128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.28070176" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39406207" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4682861" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -819,14 +692,14 @@
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32969153" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24228792" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24550128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.28070176" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.48852903" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4682861" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -979,6 +852,24 @@
           <properties />
           <option name="timeStamp" value="49" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/java/jdk1.8/src.zip!/java/util/ArrayList.java</url>
+          <line>404</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/MaxHeapComparable.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/MaxHeapComparable.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/component/cyclicbarrier/CyclicBarrierTest3.java</url>
           <line>9</line>
@@ -1015,6 +906,16 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>temp.compareTo(list.get(child1Index))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>elements.toArray(elementData)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>longLocal.get()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -1022,59 +923,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/sematic/FairAndUnfairTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/sematic/ConditionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="17" column="55" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk1.8/src.zip!/java/util/concurrent/locks/LockSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="144" column="56" lean-forward="true" selection-start-line="144" selection-start-column="7" selection-end-line="144" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk1.8/src.zip!/java/util/concurrent/locks/Condition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="357" column="66" selection-start-line="357" selection-start-column="46" selection-end-line="357" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/component/cyclicbarrier/Temp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="21" column="27" lean-forward="true" selection-end-line="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/component/cyclicbarrier/CyclicBarrierTest3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/component/cyclicbarrier/CyclicBarrierTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/component/exchanger/ExchangerProducer.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xjx/jdktest/concurrent/component/cyclicbarrier/CyclicBarrierTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
@@ -1226,14 +1074,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1241,10 +1081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="14" column="1" lean-forward="true" selection-start-line="2" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1287,10 +1123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#196#209#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1315,10 +1147,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/java/jdk1.8/src.zip!/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7317">
+          <caret line="311" column="22" selection-start-line="311" selection-start-column="16" selection-end-line="311" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/AVLTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5643">
+          <caret line="213" column="29" selection-start-line="213" selection-start-column="25" selection-end-line="213" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/BSTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/RBTreeComparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk1.8/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2727">
+          <caret line="137" column="18" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk1.8/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22005">
+          <caret line="848" column="11" selection-start-line="848" selection-start-column="11" selection-end-line="848" selection-end-column="11" />
+          <folding>
+            <element signature="e#32532#32533#0" expanded="true" />
+            <element signature="e#32566#32567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/xjx/jdktest/datastruct/RBTreeComparableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="324">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1331,6 +1209,20 @@
             <element signature="e#264#265#0" expanded="true" />
             <element signature="method#update#0;class#AVLTreeMap#0" />
             <element signature="method#rightRotate#0;class#AVLTreeMap#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/BSTreeComparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5238">
+          <caret line="220" column="14" selection-start-line="220" selection-start-column="8" selection-end-line="220" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#get#0;class#BSTreeComparable#0" />
+            <element signature="method#get#0;class#BSTreeComparable#0" />
+            <element signature="docComment;method#getRecursive#0;class#BSTreeComparable#0" />
+            <element signature="method#getRecursive#0;class#BSTreeComparable#0" />
           </folding>
         </state>
       </provider>
@@ -1349,72 +1241,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/RBTreeComparable.java">
+    <entry file="jar://D:/java/jdk1.8/src.zip!/java/lang/Number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        <state relative-caret-position="405">
+          <caret line="62" column="32" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk1.8/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5049">
+          <caret line="210" column="12" selection-start-line="210" selection-start-column="12" selection-end-line="210" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk1.8/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50490">
+          <caret line="1951" selection-start-line="1951" selection-end-line="1951" />
           <folding>
-            <element signature="method#putRecursive#0;class#RBTreeComparable#0" />
-            <element signature="method#rotateRight#0;class#RBTreeComparable#0" />
-            <element signature="class#Node#0;class#RBTreeComparable#0" />
+            <element signature="e#75785#75786#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/java/jdk1.8/src.zip!/java/util/TreeMap.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/MaxHeapComparable2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-121">
-          <caret line="311" column="22" selection-start-line="311" selection-start-column="16" selection-end-line="311" selection-end-column="22" />
-          <folding>
-            <element signature="e#76802#76803#0" expanded="true" />
-            <element signature="e#76854#76855#0" expanded="true" />
-            <element signature="e#76916#76917#0" expanded="true" />
-            <element signature="e#76967#76968#0" expanded="true" />
-            <element signature="e#77148#77149#0" expanded="true" />
-            <element signature="e#77197#77198#0" expanded="true" />
-            <element signature="e#77258#77259#0" expanded="true" />
-            <element signature="e#77308#77309#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/AVLTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="213" column="29" selection-start-line="213" selection-start-column="25" selection-end-line="213" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/BSTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1107">
-          <caret line="62" column="29" lean-forward="true" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/BSTreeComparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="220" column="14" selection-start-line="220" selection-start-column="8" selection-end-line="220" selection-end-column="14" />
+        <state relative-caret-position="149">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;method#get#0;class#BSTreeComparable#0" />
-            <element signature="method#get#0;class#BSTreeComparable#0" />
-            <element signature="docComment;method#getRecursive#0;class#BSTreeComparable#0" />
-            <element signature="method#getRecursive#0;class#BSTreeComparable#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk1.8/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-418">
+          <caret line="716" column="24" selection-start-line="716" selection-start-column="16" selection-end-line="716" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#54151#0" expanded="true" />
+            <element signature="e#7128#7574#0" />
+            <element signature="e#7580#8306#0" />
+            <element signature="e#13541#13542#0" expanded="true" />
+            <element signature="e#13596#13597#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk1.8/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="3179" column="60" selection-start-line="3179" selection-start-column="51" selection-end-line="3179" selection-end-column="60" />
+          <folding>
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xjx/jdktest/datastruct/MaxHeapComparable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        <state relative-caret-position="141">
+          <caret line="93" column="46" selection-start-line="93" selection-start-column="46" selection-end-line="93" selection-end-column="46" />
           <folding>
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1085#1086#0" expanded="true" />
           </folding>
         </state>
       </provider>
